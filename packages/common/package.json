@@ -1,0 +1,16 @@
+{
+  "name": "common",
+  "private": true,
+  "exports": {
+    "./inputs":"./input.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "zod": "^4.1.5"
+  }
+}
